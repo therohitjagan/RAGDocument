@@ -1,0 +1,42 @@
+[
+  {
+    "strategy": "dense",
+    "hit_rate": 0.52,
+    "context_recall": 0.47,
+    "context_precision": 0.264,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.76,
+    "mean_latency_ms": 3.01,
+    "total_queries": 25
+  },
+  {
+    "strategy": "sparse",
+    "hit_rate": 1.0,
+    "context_recall": 1.0,
+    "context_precision": 0.728,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.94,
+    "mean_latency_ms": 14.76,
+    "total_queries": 25
+  },
+  {
+    "strategy": "hybrid",
+    "hit_rate": 0.96,
+    "context_recall": 0.7413,
+    "context_precision": 0.48,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.94,
+    "mean_latency_ms": 24.69,
+    "total_queries": 25
+  },
+  {
+    "strategy": "hybrid_rerank",
+    "hit_rate": 1.0,
+    "context_recall": 1.0,
+    "context_precision": 0.608,
+    "faithfulness": 1.0,
+    "answer_relevance": 0.94,
+    "mean_latency_ms": 20.35,
+    "total_queries": 25
+  }
+]

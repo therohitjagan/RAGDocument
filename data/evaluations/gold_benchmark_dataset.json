@@ -1,0 +1,802 @@
+[
+  {
+    "query": "What is the recommended buffer capacity in the Architecture Spec for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The recommended buffer capacity is 64MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00000"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Architecture Spec for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The listener port is 6379 and the latency threshold is 1000ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00000"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 64MB in doc_dist_00000?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 64MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00000"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00000 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 1000ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00000"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Rfc for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00001"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Rfc for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The listener port is 2379 and the latency threshold is 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00001"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00001?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00001"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00001 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00001"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Runbook for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The recommended buffer capacity is 1024MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00002"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Runbook for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The listener port is 8443 and the latency threshold is 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00002"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 1024MB in doc_dist_00002?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 1024MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00002"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00002 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00002"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Incident Postmortem for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The recommended buffer capacity is 512MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00003"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Incident Postmortem for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The listener port is 9092 and the latency threshold is 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00003"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 512MB in doc_dist_00003?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 512MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00003"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00003 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00003"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Api Doc for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The recommended buffer capacity is 512MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00004"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Api Doc for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The listener port is 5432 and the latency threshold is 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00004"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 512MB in doc_dist_00004?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 512MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00004"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00004 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00004"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Troubleshooting Guide for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The recommended buffer capacity is 64MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00005"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Troubleshooting Guide for Raft Consensus Protocol Heartbeat and Election Timeout Tuning?",
+    "ground_truth_answer": "The listener port is 5432 and the latency threshold is 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00005"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 64MB in doc_dist_00005?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 64MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00005"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00005 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00005"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Architecture Spec for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00006"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Architecture Spec for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The listener port is 5432 and the latency threshold is 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00006"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00006?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00006"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00006 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00006"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Rfc for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00007"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Rfc for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The listener port is 8080 and the latency threshold is 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00007"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00007?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00007"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00007 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00007"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Runbook for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00008"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Runbook for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The listener port is 6379 and the latency threshold is 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00008"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00008?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00008"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00008 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00008"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Incident Postmortem for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The recommended buffer capacity is 1024MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00009"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Incident Postmortem for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The listener port is 8443 and the latency threshold is 50ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00009"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 1024MB in doc_dist_00009?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 1024MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00009"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00009 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 50ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00009"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Api Doc for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The recommended buffer capacity is 64MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00010"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Api Doc for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The listener port is 8500 and the latency threshold is 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00010"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 64MB in doc_dist_00010?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 64MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00010"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00010 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00010"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Troubleshooting Guide for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The recommended buffer capacity is 128MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00011"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Troubleshooting Guide for Multi-Raft Log Replication and Group Partitioning Strategy?",
+    "ground_truth_answer": "The listener port is 5432 and the latency threshold is 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00011"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 128MB in doc_dist_00011?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 128MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00011"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00011 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00011"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Architecture Spec for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The recommended buffer capacity is 512MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00012"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Architecture Spec for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The listener port is 2379 and the latency threshold is 50ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00012"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 512MB in doc_dist_00012?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 512MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00012"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00012 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 50ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00012"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Rfc for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The recommended buffer capacity is 128MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00013"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Rfc for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The listener port is 6379 and the latency threshold is 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00013"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 128MB in doc_dist_00013?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 128MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00013"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00013 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00013"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Runbook for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The recommended buffer capacity is 64MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00014"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Runbook for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The listener port is 6379 and the latency threshold is 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00014"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 64MB in doc_dist_00014?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 64MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00014"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00014 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00014"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Incident Postmortem for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00015"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Incident Postmortem for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The listener port is 8443 and the latency threshold is 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00015"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00015?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00015"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00015 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00015"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Api Doc for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The recommended buffer capacity is 128MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00016"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Api Doc for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The listener port is 6379 and the latency threshold is 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00016"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 128MB in doc_dist_00016?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 128MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00016"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00016 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00016"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Troubleshooting Guide for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The recommended buffer capacity is 64MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00017"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Troubleshooting Guide for Consistent Hashing and Virtual Node Distribution in Sharded Clusters?",
+    "ground_truth_answer": "The listener port is 8080 and the latency threshold is 50ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00017"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 64MB in doc_dist_00017?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 64MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00017"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00017 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 50ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00017"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Architecture Spec for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00018"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Architecture Spec for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The listener port is 9092 and the latency threshold is 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00018"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00018?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00018"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00018 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 100ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00018"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Rfc for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The recommended buffer capacity is 128MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00019"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Rfc for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The listener port is 8500 and the latency threshold is 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00019"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 128MB in doc_dist_00019?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 128MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00019"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00019 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00019"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Runbook for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The recommended buffer capacity is 128MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00020"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Runbook for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The listener port is 8500 and the latency threshold is 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00020"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 128MB in doc_dist_00020?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 128MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00020"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00020 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 500ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00020"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Incident Postmortem for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The recommended buffer capacity is 512MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00021"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Incident Postmortem for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The listener port is 9092 and the latency threshold is 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00021"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 512MB in doc_dist_00021?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 512MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00021"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00021 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00021"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Api Doc for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The recommended buffer capacity is 64MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00022"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Api Doc for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The listener port is 5432 and the latency threshold is 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00022"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 64MB in doc_dist_00022?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 64MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00022"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00022 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00022"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Troubleshooting Guide for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00023"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Troubleshooting Guide for Vector Clock Implementation for Concurrent Conflict Resolution?",
+    "ground_truth_answer": "The listener port is 5432 and the latency threshold is 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00023"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00023?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00023"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00023 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 250ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00023"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What is the recommended buffer capacity in the Architecture Spec for Gossip Protocol Dissemination and Anti-Entropy Mechanics?",
+    "ground_truth_answer": "The recommended buffer capacity is 256MB (internal_buffer_capacity_mb).",
+    "ground_truth_doc_ids": [
+      "doc_dist_00024"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "What listener port and timeout threshold are configured in the Architecture Spec for Gossip Protocol Dissemination and Anti-Entropy Mechanics?",
+    "ground_truth_answer": "The listener port is 8443 and the latency threshold is 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00024"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "How to resolve memory saturation exceeding 256MB in doc_dist_00024?",
+    "ground_truth_answer": "Issue kill -USR2 to dump heap profile when buffer saturation exceeds 256MB.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00024"
+    ],
+    "domain": "distributed_systems"
+  },
+  {
+    "query": "Which counter tracks latency breaches for doc_dist_00024 when processing exceeds the threshold in distributed_systems?",
+    "ground_truth_answer": "The telemetry counter sys_distributed_systems_latency_breach_total tracks breaches exceeding 25ms.",
+    "ground_truth_doc_ids": [
+      "doc_dist_00024"
+    ],
+    "domain": "distributed_systems"
+  }
+]

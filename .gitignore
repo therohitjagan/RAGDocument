@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases and indexes
+data/chroma_db/
+data/bm25_index/
+data/raw/doc_*.md
+
+# Environment variables
+.env
