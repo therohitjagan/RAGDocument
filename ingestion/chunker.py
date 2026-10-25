@@ -184,3 +184,10 @@ class ContextAwareChunker:
             chunks.append(chunk)
 
         return chunks
+
+    def process_documents(self, documents: List[Document]) -> List[Chunk]:
+        """Convenience method to process and chunk multiple documents."""
+        all_chunks: List[Chunk] = []
+        for doc in documents:
+            all_chunks.extend(self.chunk_document(doc))
+        return all_chunks

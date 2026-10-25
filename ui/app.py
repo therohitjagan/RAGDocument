@@ -386,6 +386,7 @@ with tab_corpus:
         st.markdown("#### Corpus Actions")
         if st.button("📦 Generate / Rebuild 5,000+ Technical Documents", use_container_width=True):
             from core.config import settings
+            from ingestion.pipeline import IngestionPipeline
             from ingestion.synthetic_corpus import generate_enterprise_corpus
             with st.spinner("Generating 5,000+ documents and indexing..."):
                 docs, samples = generate_enterprise_corpus(
@@ -393,7 +394,8 @@ with tab_corpus:
                     target_count=5000,
                     save_to_disk=True,
                 )
-                chunks = chunker.process_documents(docs[:200])  # Index primary core docs into active memory
+                pipeline = IngestionPipeline(chunker=chunker)
+                chunks = pipeline.process_documents(docs[:200])  # Index primary core docs into active memory
                 retriever.index_chunks(chunks)
                 st.success(f"Generated {len(docs):,} documents and indexed {len(chunks):,} chunks!")
                 st.rerun()
