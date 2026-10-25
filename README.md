@@ -1,4 +1,4 @@
-# Enterprise Document Q&A with Hybrid RAG
+# RAGDocument: Enterprise Document Q&A with Hybrid RAG
 
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-purple.svg)](https://www.trychroma.com/)
@@ -6,7 +6,7 @@
 [![RAGAS](https://img.shields.io/badge/Evaluation-RAGAS_Standard-green.svg)](https://github.com/explodinggradients/ragas)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Engineered an enterprise-grade RAG pipeline over 5,000+ technical documents, orchestrating dense semantic vector retrieval via ChromaDB and sparse keyword search with reranking. Implemented context-aware chunking and metadata filtering, improving retrieval hit rate from 68% to 92% and answer faithfulness to 95% evaluated via RAGAS.**
+> **High-throughput enterprise RAG pipeline over 5,000+ technical documents, orchestrating dense semantic vector retrieval via ChromaDB and sparse keyword search with cross-encoder reranking. Implemented context-aware AST chunking and metadata pre-filtering, achieving a 92% retrieval hit rate and 95%+ answer faithfulness evaluated against RAGAS standards.**
 
 ---
 
@@ -108,7 +108,7 @@ Benchmarked across a curated golden evaluation dataset over **5,000+ technical d
 ## 📁 Project Directory Layout
 
 ```
-Resume_Project/
+RAGDocument/
 ├── core/
 │   ├── config.py             # Pydantic BaseSettings & system configuration
 │   └── models.py             # Domain models (Document, Chunk, ScoredChunk, RAGResponse)
@@ -154,7 +154,8 @@ Resume_Project/
 ### 1. Prerequisites & Environment Setup
 ```bash
 # Clone the repository and navigate into it
-cd Resume_Project
+git clone https://github.com/therohitjagan/RAGDocument.git
+cd RAGDocument
 
 # Create and activate virtual environment
 python -m venv venv
